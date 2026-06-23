@@ -109,3 +109,59 @@ h1{
     font-weight: 400;
     text-transform: lowercase;
 }
+
+
+
+/* media query */
+@media (max-width: 645px) {
+    
+    .container {
+        padding: 2rem 1.5rem;
+        gap: 1.5rem;
+        width: 95%; 
+    }
+
+   
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0px;
+    }
+
+    .box {
+        gap: 0.8rem;
+    }
+
+  
+    .clock {
+        width: 90px;
+        height: 100px;
+        border-radius: 1rem;
+    }
+
+    .front-clock {
+        border-radius: 0.9rem;
+        font-size: 2.5rem;
+    }
+
+    
+    .front-clock p {
+        font-size: 0.7rem;
+        margin-top: 0rem;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .box {
+        gap: 0.5rem; 
+    }
+    
+    .clock {
+        width: 80px;
+        height: 90px;
+    }
+    
+    .front-clock {
+        font-size: 2.2rem;
+    }
+}
